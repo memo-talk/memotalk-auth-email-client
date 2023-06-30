@@ -1,0 +1,174 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css");
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+:root {
+  --white: #ffffff;
+  --grey-100: #212121;
+  --grey-200: #454545;
+  --grey-800: #d9d9d9;
+  --blue: #2487e2;
+  --font-weight-bold: 700;
+  --font-weight-semi-bold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Pretendard Variable', 'Poppins', -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-style: normal;
+}
+
+body {
+  margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+  scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.pt-56 {
+  padding-top: 3.5rem
+}
+
+.pl-32 {
+  padding-left: 1rem;
+}
+
+.py-71 {
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.items-center	 {
+  align-items: center;
+}
+
+.justify-items-center	{
+  justify-items: center;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-32 {
+  gap: 2rem;
+}
+
+.gap-35 {
+  gap: 2.1875rem;
+}
+
+.font-poppins {
+  font-family: 'Poppins';
+}
+
+.font-prentendard {
+  font-family: 'Pretendard Variable';
+}
+
+.font-normal	{
+  font-weight: 400;
+}
+
+.font-medium	{
+  font-weight: 500;
+}
+
+.font-semibold	{
+  font-weight: 600;
+}
+
+.font-bold	{
+  font-weight: 700;
+}
+
+.text-sm {
+  font-size: 0.75rem;
+}
+
+.text-base {
+  font-size: 1rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-grey-100 {
+  color: var(--grey-100);
+}
+
+.text-grey-200 {
+  color: var(--grey-200);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.wider {
+  letter-spacing: 0.05rem;
+}
+
+.leading-6	{
+  line-height: 1.5rem;
+}
+
+.leading-7 {
+  line-height: 1.8125rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-24 {
+  width: 24px;
+}
+
+.h-screen	{
+  height: 100vh;
+}
+
+.h-24 {
+  height: 24px;
+}
+
+.h-56 {
+  height: 56px;
+}
+
+.border-y-1 {
+  border-top: 1px solid var(--grey-800);
+  border-bottom: 1px solid var(--grey-800);
+}
